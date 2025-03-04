@@ -17,5 +17,7 @@ print("program"[2:5])
 print("ahoj" + "slunce")
 
 jmeno = input("zadejte své jméno")
-prijmeni = input("zadejte své příjmen")
-print(jmeno.index(0))
+prijmeni = input("zadejte své příjmení")
+print(jmeno[0].upper())
+print(prijmeni[0].upper())
+
