@@ -21,3 +21,16 @@ prijmeni = input("zadejte své příjmení")
 print(jmeno[0].upper())
 print(prijmeni[0].upper())
 
+mesta = ["Praha","Berlín","Ostrava","Brno","Ústí nad labem"]
+
+print(mesta)
+
+print(mesta[3])
+
+for mesta in mesta:
+  print(mesta)
+
+
+ print()
+
+ print(mesta.append("kroměříž"))
