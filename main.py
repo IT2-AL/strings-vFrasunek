@@ -17,20 +17,5 @@ print("program"[2:5])
 print("ahoj" + "slunce")
 
 jmeno = input("zadejte své jméno")
-prijmeni = input("zadejte své příjmení")
-print(jmeno[0].upper())
-print(prijmeni[0].upper())
-
-mesta = ["Praha","Berlín","Ostrava","Brno","Ústí nad labem"]
-
-print(mesta)
-
-print(mesta[3])
-
-for mesta in mesta:
-  print(mesta)
-
-
- print()
-
- print(mesta.append("kroměříž"))
+prijmeni = input("zadejte své příjmen")
+print(jmeno.index(0))
